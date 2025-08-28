@@ -1,0 +1,135 @@
+2025-08-28 12:02:33,442 - INFO - Starting CROUS housing checker
+2025-08-28 12:02:34,276 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:02:34,276 - INFO - Sending Discord notification: Cergy-Les Chateaux - https://trouverunlogement.lescrous.fr/tools/37/accommodations/1066
+2025-08-28 12:03:06,007 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:03:37,085 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:04:07,796 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:04:38,668 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:05:09,561 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:05:33,529 - INFO - Starting CROUS housing checker
+2025-08-28 12:05:34,314 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:05:34,315 - INFO - Sending Discord notification: Cergy-Les Chateaux - https://trouverunlogement.lescrous.fr/tools/37/accommodations/1066
+2025-08-28 12:06:05,855 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:06:36,615 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:07:07,425 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:07:38,378 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:08:09,188 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:08:40,043 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:09:10,970 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:09:24,545 - INFO - Starting CROUS housing checker
+2025-08-28 12:09:25,605 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:09:25,605 - INFO - Sending Discord notification: Cergy-Les Chateaux - https://trouverunlogement.lescrous.fr/tools/37/accommodations/1066
+2025-08-28 12:09:56,867 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:10:27,922 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:10:58,664 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:11:29,440 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:12:00,840 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:12:31,792 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:13:02,577 - INFO - Available housing found: 1 logement trouvé
+2025-08-28 12:13:12,018 - INFO - Starting CROUS housing checker
+2025-08-28 12:13:12,448 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:13:12,448 - INFO - Sending Discord notification: Résidence Rachel Carson - https://trouverunlogement.lescrous.fr/tools/37/accommodations/654
+2025-08-28 12:13:12,946 - INFO - Sending Discord notification: Résidence Chapou - https://trouverunlogement.lescrous.fr/tools/37/accommodations/2499
+2025-08-28 12:13:43,792 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:14:14,640 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:14:18,001 - INFO - Starting CROUS housing checker
+2025-08-28 12:14:18,473 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:14:18,474 - INFO - Sending Discord notification: Résidence Rachel Carson - https://trouverunlogement.lescrous.fr/tools/37/accommodations/654
+2025-08-28 12:14:19,193 - INFO - Sending Discord notification: Résidence Chapou - https://trouverunlogement.lescrous.fr/tools/37/accommodations/2499
+2025-08-28 12:14:37,293 - INFO - Starting CROUS housing checker
+2025-08-28 12:14:37,719 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:14:37,720 - INFO - Sending Discord notification: Résidence Rachel Carson - https://trouverunlogement.lescrous.fr/tools/37/accommodations/654
+2025-08-28 12:14:38,142 - INFO - Sending Discord notification: Résidence Chapou - https://trouverunlogement.lescrous.fr/tools/37/accommodations/2499
+2025-08-28 12:15:09,385 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:15:40,049 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:16:13,987 - INFO - Starting CROUS housing checker
+2025-08-28 12:16:13,989 - ERROR - An error occurred: Invalid URL 'cc': No scheme supplied. Perhaps you meant https://cc?
+Traceback (most recent call last):
+  File "C:\Users\kaouaneame\Downloads\4_5872940518228367421\main.py", line 95, in main
+    check_logements()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\kaouaneame\Downloads\4_5872940518228367421\main.py", line 57, in check_logements
+    response = session.get(url, headers=headers, timeout=10)
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+    ~~~~~~~~~^
+        method=request.method.upper(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        hooks=merge_hooks(request.hooks, self.hooks),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+    ...<2 lines>...
+    )
+requests.exceptions.MissingSchema: Invalid URL 'cc': No scheme supplied. Perhaps you meant https://cc?
+2025-08-28 12:16:13,999 - INFO - Sending Discord notification: An error occurred: Invalid URL 'cc': No scheme supplied. Perhaps you meant https://cc?
+2025-08-28 12:16:37,655 - INFO - Starting CROUS housing checker
+2025-08-28 12:16:37,657 - ERROR - An error occurred: Invalid URL 'cc': No scheme supplied. Perhaps you meant https://cc?
+Traceback (most recent call last):
+  File "C:\Users\kaouaneame\Downloads\4_5872940518228367421\main.py", line 95, in main
+    check_logements()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\kaouaneame\Downloads\4_5872940518228367421\main.py", line 57, in check_logements
+    response = session.get(url, headers=headers, timeout=10)
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 575, in request
+    prep = self.prepare_request(req)
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\sessions.py", line 484, in prepare_request
+    p.prepare(
+    ~~~~~~~~~^
+        method=request.method.upper(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        hooks=merge_hooks(request.hooks, self.hooks),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 367, in prepare
+    self.prepare_url(url, params)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\kaouaneame\AppData\Local\Programs\Python\Python313\Lib\site-packages\requests\models.py", line 438, in prepare_url
+    raise MissingSchema(
+    ...<2 lines>...
+    )
+requests.exceptions.MissingSchema: Invalid URL 'cc': No scheme supplied. Perhaps you meant https://cc?
+2025-08-28 12:16:37,659 - INFO - Sending Discord notification: An error occurred: Invalid URL 'cc': No scheme supplied. Perhaps you meant https://cc?
+2025-08-28 12:16:48,251 - INFO - Starting CROUS housing checker
+2025-08-28 12:16:49,110 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:16:49,110 - INFO - Sending Discord notification: CITE VOIE DOMITIENNE - https://trouverunlogement.lescrous.fr/tools/37/accommodations/863
+2025-08-28 12:16:49,609 - INFO - Sending Discord notification: CITE COLOMBIERE - https://trouverunlogement.lescrous.fr/tools/37/accommodations/864
+2025-08-28 12:17:20,732 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:17:51,258 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:19:04,502 - INFO - Starting CROUS housing checker
+2025-08-28 12:20:30,777 - INFO - Starting CROUS housing checker
+2025-08-28 12:20:31,467 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:20:31,467 - INFO - Sending Discord notification: Résidence Rachel Carson - https://trouverunlogement.lescrous.fr/tools/37/accommodations/654
+2025-08-28 12:20:32,181 - INFO - Sending Discord notification: Résidence Chapou - https://trouverunlogement.lescrous.fr/tools/37/accommodations/2499
+2025-08-28 12:21:03,359 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:21:34,139 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:22:04,867 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 12:22:15,417 - INFO - Starting CROUS housing checker
+2025-08-28 15:16:14,593 - INFO - Starting CROUS housing checker
+2025-08-28 15:33:47,133 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='trouverunlogement.lescrous.fr', port=443): Read timed out. (read timeout=10)")': /tools/37/search?bounds=2.9679677_50.6612596_3.125725_50.6008264
+2025-08-28 15:34:19,992 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='trouverunlogement.lescrous.fr', port=443): Read timed out. (read timeout=10)")': /tools/37/search?bounds=2.9679677_50.6612596_3.125725_50.6008264
+2025-08-28 15:34:42,339 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000181206CE990>: Failed to establish a new connection: [WinError 10051] Une opération a été tentée sur un réseau impossible à atteindre')': /tools/37/search?bounds=2.9679677_50.6612596_3.125725_50.6008264
+2025-08-28 15:35:32,563 - INFO - Starting CROUS housing checker
+2025-08-28 15:36:47,123 - INFO - Starting CROUS housing checker
+2025-08-28 15:36:47,560 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 15:36:47,560 - INFO - Sending Discord notification: Résidence Rachel Carson - https://trouverunlogement.lescrous.fr/tools/37/accommodations/654
+2025-08-28 15:36:48,047 - INFO - Sending Discord notification: Résidence Chapou - https://trouverunlogement.lescrous.fr/tools/37/accommodations/2499
+2025-08-28 15:37:19,200 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 15:37:49,776 - INFO - Available housing found: 2 logements trouvés
+2025-08-28 15:38:01,213 - INFO - Starting CROUS housing checker
